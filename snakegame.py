@@ -2,7 +2,8 @@ import pygame
 import random
 import os
 from gameinit import GameInit
-os.chdir(r'C:\Users\schmi\OneDrive\Desktop\programming\python\pygame\snake game')
+
+#os.chdir(r'') #directory for high score text file
 
 class SnakeGame(GameInit):
     def player_snake(self, snake_size, snake_coord): 
